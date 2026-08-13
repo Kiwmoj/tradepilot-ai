@@ -1,0 +1,53 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+starlette==0.41.3
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+psycopg2-binary==2.9.10
+
+# Validation & settings
+pydantic==2.10.3
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# Auth & security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# HTTP client for market data
+httpx==0.28.1
+tenacity==9.0.0
+
+# Technical analysis
+pandas==2.2.3
+numpy==2.2.1
+ta==0.11.0
+
+# Caching / background
+redis==5.2.1
+
+# Utilities
+python-dateutil==2.9.0.post0
+pytz==2024.2
+orjson==3.10.12
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+pytest-cov==6.0.0
+httpx==0.28.1
+aiosqlite==0.20.0
+
+# Linting / typing
+ruff==0.8.4
+mypy==1.14.0
+types-python-dateutil==2.9.0.20241206
+
+# Optional AI
+openai==1.58.1
